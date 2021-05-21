@@ -7,6 +7,7 @@ const bandSchema = new Schema({
     members:{type: Array, required : true},
     styles:{type: Array, required : true},
     song:{type: String, required : true},
+    picture: {type: String, required:true}
 },
 {
     timestamps: true, //muestra última vez que se actualizó
